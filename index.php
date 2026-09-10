@@ -25,6 +25,17 @@
             echo "</table>";
         }   
     ?>
-
+    <br>
+    <form action="tabuadacompleta.php" method="GET">
+    <h1>Tabadua Completa 0-10</h1>
+    <form action="#" method="GET">
+         <label for="ftabuada">Tabuade até: </label>
+         <input type="number" id="ftabuada" name="ftabuada">
+         <br>
+         <button type="submit">Tabuadas</button>
+    </form>
+    <br>
+ 
+    </form>
 </body>
 </html>
