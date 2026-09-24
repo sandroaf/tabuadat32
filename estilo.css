@@ -1,0 +1,9 @@
+th, td {
+    border: 1px solid gray;
+}
+
+address {
+    text-align: center;
+    color: lightseagreen;
+    font-size: smaller;
+}

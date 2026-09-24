@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada Simples 0-10</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <h1>Tabadua de 0-10</h1>
@@ -26,16 +27,16 @@
         }   
     ?>
     <br>
-    <form action="tabuadacompleta.php" method="GET">
     <h1>Tabadua Completa 0-10</h1>
-    <form action="#" method="GET">
+    <form action="tabuadacompleta.php" method="GET">
          <label for="ftabuada">Tabuade até: </label>
          <input type="number" id="ftabuada" name="ftabuada">
          <br>
          <button type="submit">Tabuadas</button>
     </form>
     <br>
- 
-    </form>
+    <?php
+        include_once "footer.php";
+    ?>
 </body>
 </html>
